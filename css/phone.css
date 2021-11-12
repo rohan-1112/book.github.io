@@ -1,0 +1,57 @@
+/* Navigation  */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 6px;
+
+}
+
+/* home  */
+#home{
+    height: 282px;
+    padding: 41px 10px 3px 10px;
+}
+#home::before{
+    height: 400px;
+    
+    
+}
+#home p{
+    font-size: 13px;
+}
+
+/* book */
+#books{
+    flex-direction: column;
+}
+#books .box{
+    flex-direction: column;
+
+}
+
+/* category */
+#category{
+    flex-direction: column;
+    
+}
+#category .box{
+    text-align: center;
+    margin: 3px 40px;
+    padding: 9px;
+}
+
+/* about */
+#about p{
+    padding: 13px 0px;
+    font-size: 1rem;
+    margin: 4px 17px;
+
+}
+
+
+/* utility classes */
+.h-primary{
+    font-size: 26px;
+}

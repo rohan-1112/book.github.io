@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+
+    <link rel="stylesheet" media="screen and (max-width:1300px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kreon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <a href="index.html"><img src="img/5a1c2855373082.9276742415117947732261.png" alt="logo"></a>
+        </div>
+        <ul>
+            <li class="item active"><a href="index.html" >Home</a></li>
+            <li class="item"><a href="index.html#ourbooks">Our Books</a></li>
+            <li class="item"><a href="index.html#trending">Trending</a></li>
+            <li class="item">
+                <div class="dropdown">
+                    <a class="dropbtn" href="index.html#categories">Categories</a>
+                    <div id="dropdown-content">
+                        <a href="action.html">Action</a>
+                        <a href="classic.html">Classic</a>
+                        <a href="comic.html">Comic</a>
+                        <a href="fantasy.html">Fantasy</a>
+                        <a href="history.html">History</a>
+                        <a href="horror.html">Horror</a>
+                        <a href="literary.html">Literary</a>
+                        <a href="romance.html">Romance</a>
+                        <a href="scifi.html">Science Fiction</a>
+                        <a href="shortstory.html">Short Story</a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="item"><a href="index.html#about">About us</a></li>
+        </ul>
+    </nav>
+     <section id="ourbooks">
+        <h1 class="h-primary center">Romance</h1>
+        <div id="books">
+            <div class="box">
+                <img src="img/romance/romance1.jpg" alt="Book1">
+                <h2 class="h-secondary center">Secret Sky</h2>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut accusamus 
+                    possimus dicta odit corporis cupiditate quasi, alias consectetur animi praesentium 
+                    laboriosam recusandae. Sint, obcaecati?</p>
+            </div>
+            <div class="box">
+                <img src="img/romance/romance2.jpg" alt="Book2">
+                <h2 class="h-secondary center">My Book Cover</h2>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut accusamus 
+                    possimus dicta odit corporis cupiditate quasi, alias consectetur animi praesentium 
+                    laboriosam recusandae. Sint, obcaecati?</p>
+            </div>
+            <div class="box">
+                <img src="img/romance/romance3.jpg" alt="Book3">
+                <h2 class="h-secondary center">Dark World</h2>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut accusamus 
+                    possimus dicta odit corporis cupiditate quasi, alias consectetur animi praesentium 
+                    laboriosam recusandae. Sint, obcaecati?</p>
+            </div>
+        </div>
+    </section>
+     <footer>
+        <div class="center">
+            Copyright &COPY;www.books.com. All rights reserved!
+        </div>
+    </footer>
+        <script type="text/javascript">
+        $(document).on('click','ul li',function(){
+            $(this).addClass('active').siblings().removeClass('active')
+
+        })
+    </script>
+</body>
+
+</html>
